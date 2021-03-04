@@ -1,0 +1,13 @@
+<p>Test Form</p>
+<form [formGroup]="profileForm" (ngSubmit)="submitForm()">
+	<legend>
+		First Name:
+		<input type="text" fromControlName="firstName" />
+	</legend>
+
+	<legend>
+		Last Name:
+		<input type="text" fromControlName="lastName" />
+	</legend>
+	<button type="submit">Submit</button>
+</form>
